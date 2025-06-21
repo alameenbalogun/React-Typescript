@@ -5,7 +5,9 @@ import "./App.css";
 function App() {
   return (
     <main>
-      <Header image={{src: internetImage, alt: "Internet" }} />
+      <Header image={{ src: internetImage, alt: "Internet" }}>
+        Your Internet
+      </Header>
     </main>
   );
 }
